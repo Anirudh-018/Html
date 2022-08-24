@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<style>
+label.def{font-size:100%}
+table,th,td{border:1px;}
+</style>
+<center>
+<img src='emblem.PNG' height=100 width=100 title='emblem' >
+</center>
+<body background='back.PNG'>
+<meta name='viewport' content='width='device-width',initial-scale=1.0'>
+<h1 style='text-align:center;color:white'>UNION PUBLIC SERVICE COMISSION</h1>
+<h1 style='text-align:center;'>NATIONAL DEFENCE ACADEMY AND NAVAL ACADEMY 2021 FORM</h1>
+<forms>
+<fieldset>
+<legend style='color:red;'>PERSONAL DETAILS</legend>
+<table>
+<tr>
+<td><label for='name'>Name</label></td>
+<td><input type='text' id='name' name='name'></td></tr>
+
+<tr>
+<td><label for='fname'>Father's Name</label></td>
+<td><input type='text' id='fname' name='fname'></td></tr>
+
+<tr>
+<td><label for='mname'>Mother's Name</label></td>
+<td><input type='text' id='mname' name='mname'></td></tr>
+
+<tr>
+<td><label for='nat'>Nationality</label></td>
+<td><input type='text' id='nat' name='nat' value='Indian'></td></tr>
+
+<tr>
+<td><label for='date'>date of birth</label></td>
+<td><input type='date' id='date' name='date'></td></tr>
+
+<tr>
+<td style='color:red;'>gender</td></tr>
+<tr>
+<td><label for='gen1'>Male</label></td>
+<td><input type='radio' id='gen1' name='gen' value='male'></td></tr>
+<tr>
+<td><label for='gen2'>Female</label></td>
+<td><input type='radio' id='gen2' name='gen' value='female'></td></tr>
+
+<tr>
+<td style='color:red;'>martial status</td></tr>
+<tr>
+<td><label for='mar'>unmarried</label></td>
+<td><input type='radio' id='mar' name='mar' value='unmarried' >
+</td></tr>
+
+<tr>
+<td style='color:red;'>Address</td>
+<td><textarea name="message" rows="10" cols="30">
+</textarea></td></tr>
+
+<tr>
+<td><label for='aad'>Aadhar Number</label></td>
+<td><input type='text' id='aad' name='aad'></td></tr>
+
+</table>
+</fieldset>
+<fieldset>
+<legend style='color:red;'>UPSC DETAILS</legend>
+<table>
+<tr>
+<td><label for='pass'>UPSC id</label></td>
+<td><input type='password' id='pass' name='pass'></td></tr>
+
+<tr>
+<td><label for='orderaf'>Airforce</label></td>
+<td><input type='number' id='orderaf' name='airforce' min='1' max='4' size='1'></td></tr>
+<td><label for='orderar'>Army</label></td>
+<td><input type='number' id='orderar' name='army' min='1' max='4' size='1'></td></tr>
+<td><label for='ordern'>Navy</label></td>
+<td><input type='number' id='ordern' name='navy' min='1' max='4' size='1'></td></tr>
+<td><label for='orderna'>Naval Academy</label></td>
+<td><input type='number' id='orderna' name='navalac' min='1' max='4' size='1'></td></tr>
+
+<tr>
+<td>do you prefer for airforce ground duties</td></tr>
+<tr>
+<td><label for='yes'>YES</label></td>
+<td><input type='checkbox' id='yes' name='yes' value='yes'></td></tr>
+<tr>
+<td><label for='yes'>NO</label></td>
+<td><input type='checkbox' id='no' name='no' value='no'></td></tr>
+
+<tr>
+<td><label for='no'>Mobile Number</label></td>
+<td><input type='text' id='no' name='no' pattern='[0-9]{10}' palceholder='0123456789' maxlength='10'></td></tr>
+
+<tr>
+<td><label for='mail'>Email id</label></td>
+<td><input type='mail' id='mail' name='mail'></td><br>
+
+<tr>
+<td><label for='mailc'>Confirm email id</label></td>
+<td><input type='mail' id='mailc' name='mailc'></td><br>
+</table>
+</fieldset>
+<a href='page2.html' target='_blank'>
+<button type='button' onclick='alert('fill page 2')'>next page</button>
+</a>
+</forms>
+</body>
+</html>
